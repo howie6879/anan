@@ -10,8 +10,8 @@ class Config:
     base_dir = os.path.dirname(os.path.dirname(__file__))
 
     # MongoDB config
-    mongo_dict = dict(
-        host=os.getenv('MONGO_HOST', ""),
+    mongodb_config = dict(
+        host=os.getenv('MONGO_HOST', "127.0.0.1"),
         port=int(os.getenv('MONGO_PORT', 27017)),
         username=os.getenv('MONGO_USERNAME', ""),
         password=os.getenv('MONGO_PASSWORD', ""),

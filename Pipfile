@@ -9,6 +9,8 @@ verify_ssl = true
 ruia = "*"
 ruia-motor = "*"
 aiofiles = "*"
+aiohttp = "*"
+ruia-ua = "*"
 
 [requires]
 python_version = "3.6"

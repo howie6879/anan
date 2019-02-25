@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "9048bc289785da94f7590d3a9ac46995b3a9d07c7e6f0364ddf3dc3524c2d249"
+            "sha256": "604c622a8650711443368b540d2e90d0dcea48354101225196ffcf733496df0a"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -49,6 +49,7 @@
                 "sha256:d4392defd4648badaa42b3e101080ae3313e8f4787cb517efd3f5b8157eaefd6",
                 "sha256:e1c3c582ee11af7f63a34a46f0448fca58e59889396ffdae1f482085061a2889"
             ],
+            "index": "pypi",
             "version": "==3.5.4"
         },
         "async-timeout": {
@@ -219,6 +220,14 @@
             ],
             "index": "pypi",
             "version": "==0.0.3"
+        },
+        "ruia-ua": {
+            "hashes": [
+                "sha256:5bec4dc3b06cdbbda4254ee9d620230c65fe23abb51ba0829271a3b7594aa7e7",
+                "sha256:85b0fbbe79836d157db982e9b264cb44de3dfab550ebf15f946d871cd1596b87"
+            ],
+            "index": "pypi",
+            "version": "==0.0.2"
         },
         "typing-extensions": {
             "hashes": [

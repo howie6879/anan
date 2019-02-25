@@ -12,7 +12,7 @@
 
 - 开发语言基于 `Python3.6+`
 - 数据库采用 `MongoDB`
-- Web 服务采用 [Sanic](https://github.com/huge-success/sanic)
+- Web 服务采用 [aiohttp](https://github.com/aio-libs/aiohttp)
 - 数据集爬虫框架选取 [Ruia](https://github.com/howie6879/ruia)
 
 **安装**
@@ -31,6 +31,6 @@ python run app.py
 
 数据集来源于互联网，目前收录来源如下：
 
-- [快速问医生](https://m.120ask.com/jibing/class/c3/)
+- [快速问医生](https://m.120ask.com/jibing/class/c3/)：数据集[文件](./datasets/type_of_disease.csv)
 
 更多来源欢迎提Issue
