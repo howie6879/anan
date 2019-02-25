@@ -3,6 +3,7 @@
  Created by howie.hu at 2019/2/24.
  Target url: https://m.120ask.com/jibing/class/c3/
  mongoexport -d anan -c disease -o disease.json --type json -f "disease_name,disease_url,disease_subject,ask_dict,treatment,symptom"
+ mongo 127.0.0.1/anan --quiet --eval "db.disease.find({}, {_id:0}).forEach(printjson);" > disease.json
 """
 
 import aiofiles
